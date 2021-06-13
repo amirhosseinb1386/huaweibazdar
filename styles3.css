@@ -1,0 +1,60 @@
+body{
+    background-image: url("aa.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.header{
+    background-color: rgba(68, 69, 73, 0);
+    margin-top: 20px;
+    height: 80px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.header img{
+    margin-top: 15px;
+    height: 50px;
+    margin-left: 10px;
+    width: 210px;
+    float: left;
+}
+
+.header ul{
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 20px;
+    color: rgba(68, 69, 73, 0);
+    font-size: 22px;
+}
+.header ul a{
+    color: rgba(0, 0, 0, 0.966);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header ul a:hover {  
+    color: rgb(145, 50, 6);
+}
+.matn{
+    width: 90%;
+    height: 50%;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    float: left;
+    text-align: right;
+}
+.motor{
+    position: absolute;
+    top: 7%;
+    left: 80%;
+}
+.searchbox{
+    position: relative;
+}
+.searchbox input{
+    width: 110px;
+}
+.searchbtn{
+    position: absolute;
+    top: 0px;
+}

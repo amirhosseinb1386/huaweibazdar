@@ -1,0 +1,68 @@
+body{
+    background-image: url("tarikh.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.header{
+    background-color: rgba(68, 69, 73, 0);
+    margin-top: 20px;
+    height: 80px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.header img{
+    margin-top: 15px;
+    height: 50px;
+    margin-left: 10px;
+    width: 210px;
+    float: left;
+}
+
+.header ul{
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 20px;
+    color: rgba(68, 69, 73, 0);
+    font-size: 22px;
+}
+.header ul a{
+    color: rgba(0, 0, 0, 0.966);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header ul a:hover {  
+    color: rgb(49, 226, 13);
+}
+.matn{
+    color: rgb(0, 0, 0);
+    box: 0 1px 1em rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.479);
+    height:50% ;
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.matn p{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.motor{
+    position: absolute;
+    top: 7%;
+    left: 80%;
+}
+.searchbox{
+    position: relative;
+}
+.searchbox input{
+    width: 110px;
+}
+.searchbtn{
+    position: absolute;
+    top: 0px;
+}
